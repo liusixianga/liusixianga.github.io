@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen"><!-- chocolate css for gallery light box-->
+<!-- animation -->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<!-- //animation --> 
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- onlinefonts -->
+<link href="http://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+<!-- //onlinefonts -->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> 
+		<!-- header -->
+		<div class="header-w3layouts"> 
+			<!-- Navigation -->
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">个人主页</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a class="navbar-brand" href="index.html">个人主页</a></h1>
+					</div> 
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+							<li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+							<li><a class="page-scroll scroll active" href="#home">主页</a></li>
+							<li><a class="page-scroll scroll" href="#about">个人简介</a></li>
+							<li><a class="page-scroll scroll" href="#port">获奖情况</a></li>
+							<li><a class="page-scroll scroll" href="#edu">学习经历</a></li>
+							<li><a class="page-scroll scroll" href="#exp">项目经验</a></li>
+							<li><a class="page-scroll scroll" href="#contact">联系方式</a></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container -->
+			</nav>  
+		</div>	
+		<!-- //header -->
+		<div class="header jarallax" id="home">
+			<div class="container">
+				<div class="banner-text text-center">
+					<h2>我是刘思翔</h2>
+					<h3> - java工程师 - </h3>
+					<p>喜欢编程，爱好专研，善于沟通，做事稳重，有很强的责任心和团队合作精神 </p>
+					<div class="w3l-button banner-btn">
+							<a href="#"></a>
+					</div>
+				</div>	
+				<div class="w3-arrow bounce animated">
+				<a href="#about" class="scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			</div>
+			</div>
+			
+		</div>
+		
+	<div class="about" id="about">
+		<div class="container">	
+				<h3 class="w3l-heading">个人简介</h3>
+			<div class="col-md-4 w3-about-top">
+				<img src="images/2.jpg" class="img-responsive" alt="about-img"/>
+			</div>
+			<div class="col-md-8 w3l-about">
+					<div class="w3ls-heading">
+						<h2>    我是刘思翔，毕业于石家庄铁道大学信息科学与技术学院软件工程专业。</h2>
+					</div>
+					<div class="w3ls-about-info">
+						<p>1.掌握C++语言，Java语言、Linux语言</p>
+                        <p>2.能够熟练使用SQL Server、Mysql、hadoop等数据库</p>
+                        <p>3.熟练掌握Spring,Struts、Mybatis等框架的使用</p>
+						<p>4.对Mapreduce,Hive,Spark等计算框架有一定了解</p>
+						<p>博客园地址:<a href="http://www.cnblogs.com/liusx/">http://www.cnblogs.com/liusx/</a></p>
+					 	<p>Github 地址:<a href="https://github.com/liusixianga">https://github.com/liusixianga</a></p>
+					</div>
+					<div class="w3l-button">
+						<a href="#" data-toggle="modal" data-target="#myModal">查看我的个人资料</a>
+					</div>
+			</div>	
+			<div class="clearfix"></div>
+		</div>
+		
+	</div>
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						<h4 class="modal-title">Vitae</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="about"> 
+						<div class="col-md-4 col-sm-4  col-xs-4 about-left ">
+							<img src="images/2.jpg" class="img-responsive" alt=""/>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 about-right wthree">
+							<h3>你好, 我是 <span>刘思翔 </span></h3>
+							<h4>java工程师 </h4>
+							<ul class="address">
+								<li>
+									<ul class="agileits-address-text ">
+										<li><b>出生日期</b></li>
+										<li>1998-08-29</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>联系电话 </b></li>
+										<li>15705479717</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>联系地址</b></li>
+										<li>河北省石家庄市北二环东路十七号</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>电子邮箱</b></li>
+										<li><a href="https://www.cnblogs.com/xxdcxy/">975332392@qq.com</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>个人主页 </b></li>
+										<li><a href="http://www.cnblogs.com/liusx/">http://www.cnblogs.com/liusx/</a></li>
+									</ul>
+								</li>
+							</ul> 
+						</div> 
+						<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- //modal -->
+	<!-- Portfolio -->
+       <div class="portfolio" id="port">
+		       <div class="port-head">
+							<h3 class="w3l-heading">获奖情况</h3>
+						</div>
+            <ul class="simplefilter">
+                <li class="active" data-filter="all">全部</li>
+                <li data-filter="1">专业技能</li>
+                <li data-filter="2">校园经历</li>
+                <li data-filter="3">体育活动</li>
+            </ul>
+     
+            <div class="filtr-container">
+                <div class="  filtr-item gallery-t" data-category="1" data-sort="Busy streets">
+				 <a href="images/jiang.jpg" class="b-link-stripe b-animate-go  thickbox">
+	
+					<figure class="w3ls-gallery">
+					 <img src="images/jiang.jpg" class="img-responsive" alt=" " />	<figcaption class="w3layouts-caption">
+							<h3>专业技能</h3>
+							
+						</figcaption>
+					</figure>
+				</a>
+                </div>
+				<div class=" filtr-item" data-category="1" data-sort="City wonders">
+                    <a href="images/xue.jpg" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure class="w3ls-gallery">
+					 <img src="images/xue.jpg" class="img-responsive" alt=" " />	<figcaption class="w3layouts-caption">
+							<h3>专业技能</h3>
+						
+						</figcaption>
+					</figure>
+				</a>
+
+                </div>
+				<div class=" filtr-item" data-category="2" data-sort="Luminous night">
+                   <a href="images/tuan.jpg" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure class="w3ls-gallery">
+					 <img src="images/tuan.jpg" class="img-responsive" alt=" " />	<figcaption class="w3layouts-caption">
+							<h3>校园经历</h3>
+							
+						</figcaption>
+					</figure>
+				</a>
+                </div>
+                <div class="  filtr-item gallery-t" data-category="2" data-sort="Busy streets">
+				 <a href="images/pin.jpg" class="b-link-stripe b-animate-go  thickbox">
+	
+					<figure class="w3ls-gallery">
+					 <img src="images/pin.jpg" class="img-responsive" alt=" " />	<figcaption class="w3layouts-caption">
+							<h3>校园经历</h3>
+							
+						</figcaption>
+					</figure>
+				</a>
+                </div>
+                <div class="  filtr-item" data-category="2" data-sort="In production">
+                   <a href="images/ti.jpg" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure class="w3ls-gallery">
+					 <img src="images/ti.jpg" class="img-responsive" alt=" " />	<figcaption class="w3layouts-caption">
+							<h3>校园经历</h3>
+							
+						</figcaption>
+					</figure>
+				</a>
+
+                </div>
+                <div class=" filtr-item" data-category="3" data-sort="Industrial site">
+                  <a href="images/lan.jpg" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure class="w3ls-gallery">
+					 <img src="images/lan.jpg" class="img-responsive" alt=" " />	<figcaption class="w3layouts-caption">
+							<h3>体育活动</h3>
+							
+						</figcaption>
+					</figure>
+				</a>
+                </div>
+                <div class=" filtr-item" data-category="3" data-sort="Peaceful lake">
+                    <a href="images/100.jpg" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure class="w3ls-gallery">
+					 <img src="images/100.jpg" class="img-responsive" alt=" " />	<figcaption class="w3layouts-caption">
+							<h3>体育活动</h3>
+							
+						</figcaption>
+					</figure>
+					</a>
+                </div>
+                 <div class="  filtr-item gallery-t" data-category="3" data-sort="Busy streets">
+				 <a href="images/dao.jpg" class="b-link-stripe b-animate-go  thickbox">
+	
+					<figure class="w3ls-gallery">
+					 <img src="images/dao.jpg" class="img-responsive" alt=" " />	<figcaption class="w3layouts-caption">
+							<h3>体育活动</h3>
+							
+						</figcaption>
+					</figure>
+				</a>
+                </div>
+               <div class="clearfix"> </div>
+	        </div>
+		 </div>
+<!-- //Portfolio -->
+<!--Education-->
+	<div id="edu" class="agile-edu">
+		<div class="container">	
+				<h3 class="w3l-heading">学习经历</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 col-sm-6 col-xs-6 work-right work-right2"> 
+				</div>
+				<div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2"> 
+					<div class="col-md-6  col-sm-6 col-xs-6  work1">
+						<h4>石家庄铁道大学</h4>
+						<p>时间:2016.9——2020.7</p>
+						<p>专业:软件工程</p>
+						</div>
+					<div class="col-md-6  col-sm-6 col-xs-6  work2">
+						<h5> 大学</h5>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6  col-sm-6 col-xs-6"> 
+				</div>
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right"> 
+					<div class="col-md-6  col-sm-6 col-xs-6 work2">
+						<span></span>
+						<h5>高中</h5>
+					</div>	
+					<div class="col-md-6  col-sm-6 col-xs-6  work-right1">
+						<h4>山东省汶上县第一中学</h4>
+						<p>时间:2013.9——2016.6</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-sec-2">
+			<div class="work-info"> 
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> 
+				</div>
+				<div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2 "> 
+					<div class="col-md-6 col-sm-6 col-xs-6  work1">
+						<h4>山东省汶上县第一实验中学</h4>
+						<p>时间:2010.9——2013.7</p></div>
+					<div class="col-md-6  col-sm-6 col-xs-6  work2">
+						<h5> 初中</h5>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			
+				<div class="clearfix"> </div>
+			</div>
+			<span class="edu-circle"></span>
+			</div>
+		</div>
+	</div>
+<!--//Education-->
+<div class="agile-border">
+	<span></span>
+</div>
+<!-- work-experience-->
+	<div id="exp" class="agile-edu exp">
+		<div class="container">	
+				<h3 class="w3l-heading">项目经历<a href="https://github.com/lcqianchang">Github地址</a></h3>
+			<div class="work-info"> 
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> 
+				</div>
+				<div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2"> 
+					<div class="col-md-6  col-sm-6 col-xs-6  work1">
+						<h4></h4>
+						<p>时间:2018.11——2018.12 </p>
+						<p>		利用数据挖掘技术，对企业登记信息进行族谱分析，通过企业登记的股东和对外投资情况，展示各家企业的族谱分析，同时计算出企业的实际控制人</p></div>
+					<div class="col-md-6  col-sm-6 col-xs-6 work2">
+						<h5> 《企业信息族谱分析系统》</h5>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6  col-sm-6 col-xs-6 "> 
+				</div>
+				<div class="col-md-6  col-sm-6 col-xs-6 work-right"> 
+					<div class="col-md-6 col-sm-6 col-xs-6 work2">
+						<span></span>
+						<h5>《河北省科技创新年报统计系统》</h5>
+					</div>	
+					<div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+						<h4></h4>
+						<p>时间:2018.3——2018.6 </p>
+						<p>通过系统实现需求征集的信息化工作。系统主要包括年报填报功能，年报审核，年报浏览，权限管理等</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-2">
+			<div class="work-info"> 
+				<div class="col-md-6  col-sm-6 col-xs-6 work-right work-right2"> 
+				</div>
+				<div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2 "> 
+					<div class="col-md-6  col-sm-6 col-xs-6 work1">
+						<h4></h4>
+						<p><p>时间:2019.4——2019.6 </p></p>
+						<p>实现视频的事实传输，异常捕获和警报，具有较低的带宽占用</p></div>
+					<div class="col-md-6  col-sm-6 col-xs-6  work2">
+						<h5> 基于物联网的视频系统</h5>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			
+				<div class="clearfix"> </div>
+			</div>
+			<span class="edu-circle"></span>
+		</div>
+	</div>
+</div>
+<!--//work-experience-->
+<!-- contact -->
+<div id="contact" class="w3_agileits-contact">
+		<div class="container">	
+				<h3 class="w3l-heading">联系方式</h3>
+				<div class="w3_agile-contact  jarallax text-center">
+					<form action="#" method="get">
+						<input type="text" placeholder="姓名" name="name" class="name" required>
+						<input type="text" placeholder="手机号码" name="phone" class="name" required>
+						<input type="email" placeholder="邮箱" name="email" class="email" required>
+						<textarea name="message" placeholder="信息"></textarea>
+						<input type="submit" value="发送">
+					</form>
+					<h4>——————</h4>
+					<a href="mailto:info@example.com">975332392@qq.com</a>
+					<h5>15705479717</h5>
+					<ul class="social-icons-w3_agile">
+						<li><a href="#" class="fa fa-facebook icon icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter icon icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus icon icon-border googleplus"> </a></li>
+					</ul>
+				</div>
+		</div>	
+</div>	
+<!-- footer -->
+<div class="agileits_w3layouts-footer text-center">
+	<div class="container">
+		
+	</div>
+</div>	
+<!-- //footer -->	
+<!-- //contact -->
+<!-- PopUp-Box-JavaScript -->
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+	<!-- //PopUp-Box-JavaScript -->	
+	<!-- fliter-JavaScript -->
+		<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+	<!-- //fliter-JavaScript -->
+<script src="js/jarallax.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+	/* init Jarallax */
+	$('.jarallax').jarallax({
+		speed: 0.5,
+		imgWidth: 1366,
+		imgHeight: 768
+	})
+</script>
+<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/easing.js"></script>
+<!-- //here ends scrolling icon -->
+	
+
+</body>
+</html>
